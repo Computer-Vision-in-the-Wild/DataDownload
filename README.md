@@ -7,7 +7,13 @@ This repo contains scripts for downloading datasets and knowledge files of all t
 
 ## Image Classification
 
+```Shell
+pip install vision-datasets>=0.2.0
+cd classification
+```
+
 Download all datasets
+
 ```Shell
 python download_datasets.py --ds all
 ```
@@ -27,15 +33,18 @@ python download_knowledge.py
 ```
 
 ## Object Detection
+```Shell
+cd detection
+```
 
 Download all datasets
 ```
-python detection/download.py
+python download.py
 ```
 
 Download a specific dataset
 ```
-python detection/download.py --dataset_names `DATASET_NAME`
+python download.py --dataset_names `DATASET_NAME`
 ```
 
 Knowledge files are already included in the repo
