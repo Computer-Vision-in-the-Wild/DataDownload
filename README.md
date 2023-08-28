@@ -7,6 +7,13 @@ This repo contains scripts for downloading datasets and knowledge files of all t
 
 ## Image Classification
 
+Note:  The data is on Azure Storage Blob, a SAS with Read permission is provided. Please append the following SAS at the end of each link to download: 
+```bash
+?sp=r&st=2023-08-28T01:41:20Z&se=3023-08-28T09:41:20Z&sv=2022-11-02&sr=c&sig=Msoq5dIl%2Fve6F01edGr8jgcZUt7rtsuJ896xvstSNfM%3D
+```
+
+Install
+
 ```Shell
 pip install vision-datasets>=0.2.0
 cd classification
