@@ -15,7 +15,7 @@ Note:  The data is on Azure Storage Blob, a SAS with Read permission is provided
 Install
 
 ```Shell
-pip install vision-datasets>=0.2.0
+pip install vision-datasets==0.2.17
 cd classification
 ```
 
